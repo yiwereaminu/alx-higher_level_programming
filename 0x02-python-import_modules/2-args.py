@@ -16,6 +16,6 @@ if __name__ == "__main__":
         print("arguments:")
 
         for i in range(num_args):
-            print(f"{i + 1} : {args[i]}")
+            print(f"{i + 1}: {args[i]}")
         """for i, arg in enumerate(args, start=1):
             print(f"{i}: {arg}")"""

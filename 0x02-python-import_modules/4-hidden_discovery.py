@@ -6,12 +6,11 @@ if __name__ == "__main__":
     module_names = dir(hidden_4)
 
     # Filter names that do not start with __
-    filtered_names = [name for name in module_names if not name.startswith("__")]
+    filtered_n = [name for name in module_names if not name.startswith("__")]
 
     # Sort the names in alphabetical order
-    sorted_names = sorted(filtered_names)
+    sorted_names = sorted(filtered_n)
 
     # Print each name on a new line
     for name in sorted_names:
         print(name)
-
